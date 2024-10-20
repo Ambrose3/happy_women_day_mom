@@ -18,7 +18,11 @@
     <audio autoplay loop>
         <source src="nhac.mp3" type="audio/mp3">
     </audio>
-    
+    <script>
+        window.addEventListener('click', function() {
+            document.querySelector('audio').play();
+        });
+    </script>
 
     <div class="greetings">
         <!-- silahkan menambah kata sesuai keinginan dengan <span>text...</span -->
